@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body> <!-- metodo è il come devo mandare i dati-->
+<form method="get" action="https://www.toptal.com/developers/postbin/1673993127899-7611431870609" id="delivery" autocomplete="on">
+    <table>
+
+        <tr>
+            <th align="left">
+                Field
+            </th>
+            <th align="left">
+                Input
+            </th>
+        <tr>
+            <td><label for="name">Nome</label></td> <!--creare la label con id da mettere su input-->
+            <td><input id="name" type="text" name="name" placeholder="Type your firstname" required> <!per input non
+                serve chiudere codice con due tag
+                quando è nel mezzo
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="LastName">cognome</label></td>
+            <td><input id="LastName" type="text" name="LastName" placeholder="Type your surname" required>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="address">Indirizzo</label></td>
+            <td><input type="text" name="address" id="address" placeholder="Your address" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="po">N.Civico</label></td>
+            <td><input type="number" id="po" name="po" placeholder="Number">
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="cap">CAP</label></td>
+            <td><input type="number" id="cap" name="CAP" placeholder="CAP" required>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+
+                <label for="city">City</label></td>
+            <td><input type="text" name="City" id="city" placeholder="City" required>
+
+            </td>
+
+        </tr>
+
+
+        <tr>
+            <td>
+
+                <label for="country">Country</label></td>
+            <td><input type="text" name="Country" id="country" placeholder="country" required>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="province">Province</label></td>
+            <td><select name="Province" id="province" required>
+                <option value="MI">Milano</option>
+                <option value="RM">Roma</option>
+                <option value="PT">Pistoia</option>
+                <option value="PO">Prato</option>
+                <option value="AN">Ancona</option>
+                <option value="AQ">L&rsquo;Aquila</option>
+            </select>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <label for="phone">Phone</label></td>
+            <td><input type="tel" name="phone" id="phone" placeholder="phone">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="email">Email</label></td>
+            <td><input type="email" id="email" name="email" placeholder="e-mail" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="note">Note</label></td>
+            <td><textarea name="Note" id="note" placeholder="note"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="enter" placeholder="Enter"></td>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <td><input type="button" name="reset" value="reset" placeholder="Reset">
+        </td>
+
+
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>

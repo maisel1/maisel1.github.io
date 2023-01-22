@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body> <!-- metodo è il come devo mandare i dati-->
+<form method="get" action="https://www.toptal.com/developers/postbin/1673993127899-7611431870609" id="delivery"
+      autocomplete="on">
+
+    <div>
+        <div style="display: inline">Field</div>
+        <div style="display: inline">Input</div>
+    </div>
+    <div>
+        <div style="display: inline"><label for="name">Nome</label></div> <!--creare la label con id da mettere su input-->
+        <div style="display: inline"><input id="name" type="text" name="name" placeholder="Type your firstname"
+                                            required>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="LastName">cognome</label></div>
+            <div style="display: inline"><input id="LastName" type="text" name="LastName"
+                                                placeholder="Type your surname"
+                                                required></div>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="address">Indirizzo</label></div>
+            <div style="display: inline"><input type="text" name="address" id="address" placeholder="Your address"
+                                                required>
+            </div>
+        </div>
+        <div>
+            <div style="display: inline"><label for="po">N.Civico</label></div>
+            <div style="display: inline"><input type="number" id="po" name="po" placeholder="Number"></div>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="cap">CAP</label></div>
+            <div style="display: inline"><input type="number" id="cap" name="CAP" placeholder="CAP" required></div>
+        </div>
+        <div>
+            <div style="display: inline"><label for="city">City</label></div>
+            <div style="display: inline"><input type="text" name="City" id="city" placeholder="City" required></div>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="country">Country</label></div>
+            <div style="display: inline"><input type="text" name="Country" id="country" placeholder="country"
+                                                required>
+            </div>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="province">Province</label></div>
+            <div style="display: inline"><select name="Province" id="province" required>
+                <option value="MI">Milano</option>
+                <option value="RM">Roma</option>
+                <option value="PT">Pistoia</option>
+                <option value="PO">Prato</option>
+                <option value="AN">Ancona</option>
+                <option value="AQ">L&rsquo;Aquila</option>
+            </select></div>
+        </div>
+        <div>
+            <div style="display: inline"><label for="phone">Phone</label></div>
+            <div style="display: inline"><input type="tel" name="phone" id="phone" placeholder="phone"></div>
+
+        </div>
+        <div>
+            <div style="display: inline"><label for="email">Email</label></div>
+            <div style="display: inline"><input type="email" id="email" name="email" placeholder="e-mail" required>
+            </div>
+        </div>
+        <div>
+            <div style="display: inline"><label for="note">Note</label></div>
+            <div style="display: inline"><textarea name="Note" id="note" placeholder="note"></textarea></div>
+        </div>
+        <div>
+            <div style="display: inline"><input type="submit" value="enter" placeholder="Enter"></div>
+        </div>
+        <div>
+            <div style="display: inline"><input type="button" name="reset" value="reset" placeholder="Reset"></div>
+
+        </div>
+</form>
+</body>
+</html>
